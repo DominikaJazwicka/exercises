@@ -1,0 +1,56 @@
+@import "./utils/vars";
+
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: getColor("white");
+    padding-top: 94px;
+    max-width: 1200px;
+    width: auto;
+
+    &__heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: getColor("white");
+    padding-top: 94px;
+    width: auto;
+    font-size: 36px;
+}
+&__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+}
+
+.customer__card {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    height: 92px;
+    border: 1px solid;
+    border-color: getColor("grey");
+    border-radius: 5px;
+}
+
+.customer__card:hover svg { fill: getColor("blue"); } 
+
+.customer__card:hover {
+    border-color: getColor("blue");
+}
+
+.customer__svg {
+    fill: getColor("grey");
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+&:hover {
+    cursor: pointer;
+    fill: getColor("blue");
+}
+}

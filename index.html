@@ -1,211 +1,520 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mobile menu workshop</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header class="page-header">
-      <div class="container">
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
 
-        <ul class="menu">
-          <li><a href="" class="link">About</a></li>
-          <li><a href="" class="link">Products</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-          <li><a href="" class="link">Career</a></li>
+    <link href="./css/index.css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+          rel="stylesheet">  
+
+</head>
+
+<body>
+
+    <header class="container header">
+
+        <div class="header__nav">
+        <nav>
+            <ul class="header__list">
+    
+            <li><a href="./index.html"><span class="header__item"><span class="header__link">Web</span>Studio</span></a></li>
+            <li><a href="./index.html" class="header__active">agencja</a></li>
+            <li><a href="./portfolio.html" >portfolio</a></li>
+            <li><a href="kontakt" >kontakt</a></li>
+    
+            </ul>
+        </nav>
+        
+        <div class="header-contact">
+           <ul class="header-contact__list">
+             <li class="header-contact__item">
+                <span class="header-contact__link">
+                    <svg class="header-contact__email" width="16" height="20">
+                        <use href="./svg/symbol-defs.svg#envelope2"></use>
+                    </svg>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </span>
+        </li>
+        
+        <li class="header-contact__item">
+            <span class="header-contact__link">
+                <svg class="header-contact__phone" width="16" height="18">
+                    <use href="./svg/symbol-defs.svg#phone"></use>
+                </svg>
+            <a href="tel:+48111111111">+48 111 111 111</a>
+            </span>
+        </li>
         </ul>
-      </div>
+        </div>
+        </div>
     </header>
 
-    <main>
-      <div class="container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          possimus doloribus modi numquam quaerat reprehenderit, necessitatibus
-          consectetur corrupti recusandae consequatur ut dolor odio itaque iusto
-          beatae? Quaerat minima sint laborum ex, est eos quidem, quisquam,
-          magnam sed quos voluptatum. Pariatur veritatis quam neque aliquid quis
-          quod est deserunt tempora assumenda veniam modi, voluptatem temporibus
-          ab repellendus excepturi. Dolore architecto, sit molestias animi et
-          pariatur dolorem voluptatum nam laudantium veniam consectetur ratione
-          quod suscipit inventore dicta illum cum non. Fugit nobis recusandae
-          rerum! Recusandae ab maiores eveniet at laborum delectus iure. Nisi
-          commodi quam iusto, omnis quasi corporis incidunt perferendis, vel
-          voluptatem, rem eligendi! Ea pariatur voluptas odio consectetur non
-          blanditiis nam iure voluptate veniam cupiditate modi molestias quas
-          temporibus quo facilis, consequatur natus officiis sit accusamus
-          exercitationem placeat itaque. Placeat, non sed consequuntur quia modi
-          inventore a nemo recusandae officia, maxime accusamus eligendi id
-          mollitia quibusdam cumque? Cupiditate nam iusto praesentium
-          exercitationem doloremque provident, quidem, dolor vero totam dolores
-          veritatis fugiat. Ipsam omnis sapiente, voluptates consectetur earum
-          dolorum est enim natus aliquid aliquam reprehenderit mollitia tempore,
-          eius sunt, velit laudantium fugiat! Eaque tenetur voluptatum ipsa
-          voluptas harum tempora corporis. Corrupti cumque delectus aperiam
-          beatae et sequi at, assumenda odit minima!
-        </p>
-        <p>
-          Asperiores nesciunt aliquid dicta? Eaque similique iste et velit
-          tenetur pariatur veniam praesentium optio ducimus? Dicta doloribus,
-          quas magnam consectetur distinctio placeat numquam eius maiores ab
-          consequuntur facere dignissimos laboriosam itaque qui animi.
-          Exercitationem possimus est iusto id ab quod dolorem harum, commodi
-          distinctio voluptas eaque beatae consequuntur enim voluptatem alias
-          repellat architecto aperiam eius ullam fugit dolorum magnam fuga
-          vitae. Vel obcaecati rem, similique id necessitatibus sed, eius animi
-          hic iure provident fuga tempore odit ullam accusantium ad nobis
-          explicabo illum officia debitis natus facere! Facere sed placeat nihil
-          delectus ipsa quaerat dicta repellendus distinctio rem! Tenetur,
-          aperiam ea. Nulla corrupti laborum doloremque numquam dignissimos non
-          quam, quas, repellendus dolores maiores molestias dicta magnam!
-          Repudiandae quibusdam ducimus possimus ipsa consequuntur expedita,
-          excepturi sint, fuga temporibus pariatur eveniet sed nihil facere
-          dolor velit porro. Quidem voluptatem accusamus itaque numquam atque,
-          assumenda iusto hic inventore, quo, maxime illo explicabo ullam
-          doloremque neque voluptates necessitatibus nisi? Illo, praesentium
-          hic! Necessitatibus perferendis alias sunt quia vero at distinctio
-          harum deserunt, modi dolores numquam omnis doloremque nostrum, illo
-          reiciendis nemo officiis perspiciatis explicabo nobis possimus,
-          nesciunt molestiae rem? Magnam deserunt suscipit, dicta, veritatis sed
-          nisi iusto eveniet saepe corporis adipisci voluptates autem quasi
-          praesentium.
-        </p>
-        <p>
-          Id veritatis, suscipit sit sunt at tempora delectus? Itaque rerum ea,
-          vitae ullam reprehenderit modi. Deserunt blanditiis fugit accusamus,
-          dolore architecto assumenda sint aspernatur aut, error corrupti
-          deleniti voluptatibus sapiente alias autem repudiandae molestias
-          repellendus? Provident ratione laborum ab pariatur itaque odio facere
-          eius. Porro facilis commodi quaerat quis velit, esse sequi cum modi?
-          Sapiente laborum assumenda dolorem voluptates deserunt magnam sit, vel
-          non doloribus perferendis, ipsum quis eveniet. Consequuntur sapiente
-          obcaecati incidunt suscipit veritatis, eum officiis cum enim vel
-          quaerat laudantium corrupti, modi dignissimos facere quo praesentium,
-          exercitationem quae est delectus? Rem ipsam deleniti atque modi cum,
-          velit, autem maxime ullam expedita non adipisci. Quisquam, excepturi
-          culpa, quo praesentium minima ipsa inventore molestias possimus
-          commodi fugit voluptatibus repellendus in vitae nihil provident
-          temporibus. Sed pariatur perspiciatis assumenda. Excepturi vitae
-          temporibus ab, voluptates sapiente dicta! Quod, cumque sed dolor quae
-          obcaecati fugit doloribus placeat dolorum nulla tenetur odit eum
-          minima impedit ullam nemo vitae sunt? Porro pariatur facere deserunt
-          aperiam obcaecati libero, doloremque velit corporis ex commodi nemo
-          ratione, iusto minima animi perspiciatis beatae nulla natus, eveniet
-          tenetur corrupti architecto tempore? Aperiam vel nulla officiis
-          dignissimos repellendus perspiciatis provident, pariatur eligendi
-          itaque, beatae modi delectus iure deleniti? Iste, iusto? Quae.
-        </p>
-        <p>
-          Sint exercitationem expedita ut sed labore! Possimus molestiae
-          blanditiis quasi recusandae, quaerat temporibus sit numquam ut,
-          quisquam repudiandae asperiores repellendus dolor veritatis aperiam,
-          debitis dolorem consequuntur error deserunt id. Atque praesentium,
-          totam sequi debitis voluptates fugit eum deleniti hic provident nisi
-          eos perferendis qui libero soluta vero nostrum unde, magni fuga.
-          Inventore qui dolorem temporibus vel quas. Quam mollitia obcaecati
-          temporibus nulla non ad eos distinctio, minus quod voluptate?
-          Laudantium, alias amet quia nesciunt doloribus reprehenderit, ex
-          facilis iure, blanditiis nemo assumenda. Autem voluptatum ut facere.
-          Non harum a aliquam cumque maiores dicta aspernatur, eos, quia esse
-          quam facilis, eaque praesentium omnis quaerat molestiae tenetur optio.
-          Modi aperiam tenetur eligendi repellat expedita, pariatur repudiandae,
-          neque quasi molestiae enim dolor earum omnis eius delectus eveniet
-          ipsam rem beatae porro consectetur? Soluta maxime debitis quaerat
-          nulla laudantium, harum eaque earum dolores, quia aut similique
-          dolorum. Ex debitis veniam nostrum fuga odio sequi aliquam
-          exercitationem praesentium beatae nisi explicabo voluptatibus quis,
-          hic iusto corporis quas dolor dolorem adipisci? Iste porro sit
-          exercitationem assumenda obcaecati fuga tempore voluptatem, tenetur
-          mollitia harum non eaque. Sint, sapiente voluptatibus ipsum, eum,
-          possimus aliquam omnis provident iste excepturi eaque accusamus minima
-          ullam est minus amet ducimus veniam ea!
-        </p>
-        <p>
-          Numquam vitae incidunt ab fugit esse dolor quidem quibusdam iusto
-          suscipit aliquid dolore nihil, rem labore quisquam molestias cumque
-          temporibus dolorem inventore veritatis optio error tempora similique
-          officiis. Quos officia numquam ab, impedit veritatis ut obcaecati
-          fugit natus ipsam vel repellendus ratione! Vel iusto a doloribus
-          tempora sapiente! Ducimus vero, maxime animi modi nostrum, obcaecati
-          quo error cupiditate eos veritatis odio, nulla dolores est molestiae
-          atque dicta ex dolore ab dolor iste nam beatae. Eos harum tenetur
-          doloribus impedit ea ad quia cum laudantium. Animi harum quia neque
-          deleniti. Excepturi, quia eligendi temporibus laudantium dicta eos
-          quas necessitatibus nihil velit consequuntur libero cupiditate
-          nesciunt, explicabo quae minus tempora eum! Repellendus accusantium
-          aut assumenda odio porro voluptatibus rerum vero nam. Maiores
-          voluptatem mollitia accusantium placeat, quod quisquam animi nobis
-          vero et ullam omnis similique corporis quasi quam unde repudiandae
-          quaerat eligendi suscipit adipisci cum pariatur nemo. Provident ea
-          iusto et adipisci voluptatibus ratione laboriosam saepe harum ut
-          molestias nemo aliquid maiores necessitatibus culpa numquam asperiores
-          dignissimos eos qui perspiciatis beatae possimus, excepturi ipsum
-          placeat. Facilis, harum. Ullam veritatis rem explicabo nesciunt ea
-          odit, dicta porro quam consequatur commodi, vel voluptas illo
-          perferendis autem maiores dolorum quo. Reprehenderit veritatis
-          recusandae nobis sunt.
-        </p>
-      </div>
-    </main>
 
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
 
-      <ul class="mobile-menu">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
-        <li><a href="" class="link">Contacts</a></li>
-        <li><a href="" class="link">Career</a></li>
-      </ul>
-    </div>
+        <section class="container service-heading__background-photo">
+            
+        <div> 
 
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="js/mobile-menu.js"></script>
-  </body>
+        <h1 class="service-heading"><span class="service-heading__item">EFEKTYWNE ROZWIĄZANIA<br>DLA WASZEGO BIZNESU</span></h1>
+        <button type="button" class="service-heading__button" data-modal-open=""><span class="service-heading__button-text">Zamów usługę</span></button>
+
+        </div>
+
+        </section>
+
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal"> 
+                <button type="button" class="modal__close-btn" data-modal-close>X</button>
+                <h2 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h2>
+        <div class="input-wrapper">
+            <form name="form-modal">
+                <label for="username">
+                    <p class="label-modal">Imie</p>
+                        <input class="input-modal" type="text" name="username" for="username" id="username">
+                            <svg class="input-modal__svg-username" width="18" height="18">
+                            <use href="./svg/symbol-defs-2.svg#people"></use>
+                            </svg>
+                </label>
+        </div>
+        <div class="input-wrapper">
+                <label for="tel">
+                    <p class="label-modal">Telefon</p>
+                        <input class="input-modal" type="tel" name="tel" for="tel" id="tel">
+                            <svg class="input-modal__svg-tel" width="18" height="18">
+                            <use href="./svg/symbol-defs-2.svg#phone-modal"></use>
+                            </svg>
+                </label>
+        
+        </div>
+        <div class="input-wrapper">
+                <label for="email">
+                    <p class="label-modal">Email</p>
+                        <input class="input-modal" type="email" name="email" for="email" id="email">
+                            <svg class="input-modal__svg-email" width="18" height="18">
+                            <use href="./svg/symbol-defs-2.svg#envelope-modal"></use>
+                            </svg>
+                </label>
+            
+        </div>
+
+
+        <div class="input-wrapper">
+            
+                <label for="coment" >
+                    <p class="label-modal">Komentarz</p>
+                        <input class="input-modal__coment" type="text" name="coment" for="coment" id="coment" placeholder="Wprowadź tekst">
+                </label>
+            
+        </div>
+
+                
+                <input class="cookies" type="checkbox" name="cookies">
+                <label class="cookies__text">Oświadczam iż akceptuję <a class="cookies__link">Regulamin</a> i <a class="cookies__link">Politykę Prywatności</a>.</label>
+                
+
+            <button type="submit" class="submit-modal">Wyślij</button>
+
+            </div>
+        </form>
+
+            <script src="./js/modal.js"></script>
+
+
+        </div>
+
+
+
+
+
+        <section class="container index">
+
+        <ul class="index-list">
+
+        <li>
+            <div class="index__element">
+
+                <div class="index-element__svg">
+                    <svg class="index-element-svg__item" width="65" height="70">
+                        <use href="./svg/symbol-defs.svg#Naszeatuty1"></use>
+                    </svg>
+                </div>
+                
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
+                    Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
+                </p>
+            </div>
+        </li>
+
+        <li class="index-list">
+            <div class="index__element">
+                <div class="index-element__svg">  
+                    <svg class="index-element-svg__item" width="65" height="70">
+                        <use href="./svg/symbol-defs.svg#naszeatrybuty2"></use>
+                    </svg>                     
+                </div>
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
+                    Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
+                </p>
+            </div>
+        </li>
+
+        <li class="index-list">
+            <div class="index__element">
+                <div class="index-element__svg">   
+                    <svg class="index-element-svg__item" width="65" height="70">
+                        <use href="./svg/symbol-defs.svg#naszeatrybuty3"></use>
+                    </svg>  
+                </div>
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
+                    Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
+                </p>
+            </div>
+        </li>
+
+        <li class="index-list">
+            <div class="index__element">
+                <div class="index-element__svg">
+                    <svg class="index-element-svg__item" width="65" height="70">
+                        <use href="./svg/symbol-defs.svg#naszeatrybuty4"></use>
+                    </svg>  
+                </div>
+                <h3 class="index-element__paragraf">LOREM IPSUM</h3>
+                <p>
+                    Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. 
+                    Nam vel arcu sem. <br>Sed non sodales dui. Interdum et malesuada
+                </p>
+            </div>
+        </li>
+
+        </ul>
+        </section>
+
+
+
+
+
+        <section class="container we-do">
+
+           <h2 class="we-do__heading">Czym się zajmujemy</h2>
+
+        <ul class="we-do__list">
+
+            <li class="we-do__card">
+                <div class="we-do__img">
+                <img src="./images/1.jpg" alt="zdjęcie rąk na klawiaturze" width="340">
+
+                <div class="static-overlay">
+                    <h2>APLIKACJE KOMPUTEROWE</h2>
+                </div>
+               </div>
+            </li>
+
+
+            <li class="we-do__card">
+                <div class="we-do__img">
+                <img src="./images/2.jpg" alt="praca przy komputerze" width="340">
+
+                <div class="static-overlay">
+                    <h2> APLIKACJE MOBILNE</h2>
+                </div>
+               </div>
+            </li>
+
+            <li class="we-do__card">
+                <div class="we-do__img">
+                <img src="./images/3.jpg" alt="praca na teblecie graficznym" width="340">
+                <div class="static-overlay">
+                    <h2>ROZWIĄZANIA GRAFICZNE</h2>
+                </div>
+               </div>
+            </li>
+
+        </ul>
+
+        </section>
+
+
+
+    <section class="container employee">
+        
+        <h2 class="employee__heading">Nasz zespół</h2>
+
+        <ul class="employee__list">
+            <li class="employee__card">
+                <div>
+                <img src="./images/4.jpg" alt="Product Designer" width="270">
+                <div class="employee__text">
+                <h3 class="employee__name">John Doe</h3>
+                <p>Product Designer</p>
+
+                <div class="employee-social-media">
+                    <div class="employee-social-media__circle">
+                        <svg class="employee-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#instagram"></use>
+                        </svg>
+
+                    </div>
+                    <div class="employee-social-media__circle">
+                        <svg class="employee-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#fb"></use>
+                        </svg>
+                    </div>
+                    <div class="employee-social-media__circle">
+                        <svg class="employee-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#twitter"></use>
+                        </svg>
+                    </div>
+                    <div class="employee-social-media__circle">
+                        <svg class="employee-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#linkedin"></use>
+                        </svg>
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="employee__card">
+                <div>
+                    <img src="./images/5.jpg" alt="Frontend Developer" width="270">
+                    <div class="employee__text">
+                    <h3 class="employee__name">John Doe</h3>
+                    <p>Frontend Developer</p>
+
+                    <div class="employee-social-media">
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#instagram"></use>
+                            </svg>
+    
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#fb"></use>
+                            </svg>
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#linkedin"></use>
+                            </svg>
+                        </div>
+                    </div>
+            </li>
+
+            <li class="employee__card">
+                <div>
+                    <img src="./images/6.jpg" alt="Marketing" width="270">
+                    <div class="employee__text">
+                    <h3  class="employee__name">John Doe</h3>
+                    <p>Marketingr</p>
+
+                    <div class="employee-social-media">
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#instagram"></use>
+                            </svg>
+    
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#fb"></use>
+                            </svg>
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#linkedin"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+            </li>
+
+            <li class="employee__card">
+                <div>
+                    <img src="./images/7.jpg" alt="UI Designer" width="270">
+                    <div class="employee__text">
+                    <h3  class="employee__name">John Doe</h3>
+                    <p>UI Designer</p>
+
+                    <div class="employee-social-media">
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#instagram"></use>
+                            </svg>
+    
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20" fill="#AFB1B8">
+                                <use href="./svg/symbol-defs.svg#fb"></use>
+                            </svg>
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </div>
+                        <div class="employee-social-media__circle">
+                            <svg class="employee-social-media__icon" width="20" height="20">
+                                <use href="./svg/symbol-defs.svg#linkedin"></use>
+                            </svg>
+                        </div>
+                    </div>
+            </li>
+        </ul>
+    </section>
+
+
+
+    <section class="container section customers">
+
+       
+            <h2 class="customers__heading">Nasi klienci</h2>
+
+            <ul class="customers__list">
+                <li class="customer__card">
+                    <svg class="customer__svg" width="170" height="92">
+                            <use href="./svg/symbol-defs.svg#Client1"></use>
+                        </svg>
+                </li>
+
+                <li class="customer__card">
+                        <svg class="customer__svg" width="170" height="92">
+                            <use href="./svg/symbol-defs.svg#Client2"></use>
+                        </svg>
+                </li>
+
+                <li class="customer__card"> 
+                        <svg class="customer__svg" width="170" height="92">
+                            <use href="./svg/symbol-defs.svg#Client3"></use>
+                        </svg>
+                    </div>
+                </li>
+
+                <li class="customer__card">
+                        <svg class="customer__svg" width="170" height="92">
+                            <use href="./svg/symbol-defs.svg#Client4"></use>
+                        </svg>
+                </li>
+
+                <li class="customer__card">
+                        <svg class="customer__svg" width="170" height="92">
+                            <use href="./svg/symbol-defs.svg#Client5"></use>
+                        </svg>
+                </li>
+
+                <li class="customer__card">
+                        <svg class="customer__svg" width="170" height="92">
+                            <use href="./svg/symbol-defs.svg#Client6"></use>
+                        </svg>
+                </li>
+
+            </ul>
+
+    </section>
+
+    <footer class="container footer">
+
+        <section class="footer-page">
+
+        <ul class="footer__list">
+            <li class="footer__element">
+                <h2><span class="footer__text">Web</span>Studio</h2>
+            </li>
+
+            <li class="footer__element">
+                <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+            </li>
+
+            <li class="footer__element">
+                <a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+
+            <li class="footer__element">
+                <a class="footer__link" href="tel:+48111111111"> +48 111 111 111 </a>
+            </li>
+        </ul>
+
+        <ul class="footer__join-us">
+
+            <li>
+            <h2>
+                <span class="join-us">Dłącz do nas</span>
+            </h2>
+
+                <div class="footer__social-media">
+                    <div class="footer-social-media__circle">
+                        <svg class="footer-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#instagram"></use>
+                        </svg>
+
+                    </div>
+
+                    <div class="footer-social-media__circle">
+                        <svg class="footer-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#fb"></use>
+                        </svg>
+                    </div>
+                    <div class="footer-social-media__circle">
+                        <svg class="footer-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#twitter"></use>
+                        </svg>
+                    </div>
+                    <div class="footer-social-media__circle">
+                        <svg class="footer-social-media__icon" width="20" height="20">
+                            <use href="./svg/symbol-defs.svg#linkedin"></use>
+                        </svg>
+                    </div>
+                </div>
+            </li>
+
+            <li class="footer__newsletter newsletter">
+            <div>
+                <h2 class="footer__newsletter-text">ZAPISZ SIĘ DO NEWSLETTERA</h2>
+
+                <form name="newsletter" autocomplete="off" novalidate> 
+                    <input class="footer-input__newsletter" type="email" name="email" placeholder="E-mail"/> 
+                    <button type="submit" class="footer__button"><span class="footer__button-text">Zapisz się</span>
+                        <svg class="footer-input__newsletter-icon" width="24" height="24">
+                            <use href="./svg/symbol-defs1.svg#icon-send"></use>
+                        </svg>
+                    </form>
+                    </button>
+            </div>
+
+            </li>
+        
+       </ul>
+
+    </section>
+
+    
+
+        
+
+    </footer>
+
+
+</body>
 </html>

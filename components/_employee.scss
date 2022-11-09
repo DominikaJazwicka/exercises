@@ -1,0 +1,79 @@
+@import "./utils/vars";
+
+.employee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: getColor("lightgray");
+    padding-top: 94px;
+    width: auto;
+
+&__heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    text-align: center;
+    width: auto;
+}
+
+&__list {
+    margin-bottom: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+}
+
+.employee__card {
+    width: 270px;
+    height: 428px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.employee__text {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.employee__name {
+    padding-bottom: 10px;
+}
+
+.employee-social-media {
+    justify-content: space-evenly;
+
+&__circle {
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    transition-duration: 0.5s;
+}
+}
+
+.employee-social-media__circle:hover svg { fill: getColor("white") }
+
+.employee-social-media__circle:hover {
+    background-color: getColor("blue");
+    fill: getColor("white");
+    cursor: pointer;
+}
+
+.employee-social-media__icon {
+    fill: getColor("grey");
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+&:hover {
+    fill: getColor("white");
+}
+}

@@ -1,0 +1,178 @@
+@import "./utils/vars";
+
+
+.header {
+    max-height: 80px;
+    width: auto;
+}
+
+
+.header__item {
+    font-weight: bold;
+    font-size: 24px;
+    color: getColor("black");
+}
+
+.header__item     :hover {
+    color: getColor("blue");
+}
+
+.header__link {
+    color: getColor("blue");
+}
+
+.header__link:hover {
+    color: getColor("black");
+}
+
+
+.header__nav {
+    margin-top: 25px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__list {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;   
+    padding-bottom: 32px;
+}
+
+.header__active {
+    justify-content: center;      
+    letter-spacing: 0.02em;
+    color: getColor("blue");
+    transition: 250ms color getColor("grey");
+    color: getColor("blue");
+    margin-top: 30px;
+}
+
+.header__active:after {
+    position: relative;
+    display: block;
+    content: "";
+    border-radius: 1px;
+    top: 15px;
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: getColor("blue");
+
+}
+
+.header-contact {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.header-contact__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+
+
+.header-contact__item {
+    margin: auto;
+
+    transition-duration: 0.5s;
+}
+
+.header-contact__item:hover {
+    fill: getColor("blue");
+}
+
+.header-contact__link {
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.header-contact__link:hover svg { fill: getColor("blue")} 
+
+
+.header-contact__email {
+    padding-right: 10px;
+    fill: getColor("darkgrey");
+
+
+&:hover {
+    fill: getColor("blue");
+}
+}
+
+.header-contact__phone {
+    padding-right: 10px;
+    fill: getColor("grey");
+
+&:hover {
+    fill: getColor("blue");
+}
+}
+
+.header__link-nav {
+    display: flex;
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .header__nav {
+        margin-top: 25px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-contact {
+        padding-left: 250px;
+    }
+
+    .header__item {
+        margin-right: 93px;
+        font-weight: bold;
+        font-size: 24px;
+        color: getColor("black");
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .header {
+        height: 80px;
+        align-items: center;
+    }
+
+    .header-contact {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .header__nav {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+
+    .header-contact__list {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+}
+}

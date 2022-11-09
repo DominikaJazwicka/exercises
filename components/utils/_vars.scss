@@ -1,0 +1,16 @@
+$colors: (
+    "white": #fff,
+    "black": #000000,
+    "blue": #2196f3,
+    "dark": #212121,
+    "darkfooter": #2f303a,
+    "grey": #AFB1B8,
+    "darkgrey": #757575,
+    "whitetrans": #ffffff99,
+    "lightgray": #F5F4FA,
+);
+
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+  }

@@ -1,0 +1,47 @@
+@import "./utils/vars";
+
+
+.index-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.index {
+    margin-top: 94px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 15px;
+    justify-content: center;
+
+&__element {
+    width: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+
+
+.index-element__svg {
+    width: 250px;
+    height: 110px;
+    background-color: getColor("lightgray");
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.index-element-svg__item {
+    padding-top: 25px;
+}
+.index-element__paragraf {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
